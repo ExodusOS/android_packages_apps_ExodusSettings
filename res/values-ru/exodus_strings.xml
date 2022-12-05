@@ -17,5 +17,6 @@
     <string name="statusbar_settings_title">Строка состояния</string>
     <string name="clock_settings_title">Часы</string>
     <string name="lockscreen_settings_title">Экран блокировки</string>
+    <string name="quick_settings_title">Быстрые настройки</string>
 
 </resources>
