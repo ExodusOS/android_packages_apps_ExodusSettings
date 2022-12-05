@@ -14,5 +14,6 @@
 
     <!-- Settings category -->
     <string name="exodus_settings_title">Настройки ExoodusOS</string>
+    <string name="statusbar_settings_title">Строка состояния</string>
 
 </resources>

@@ -16,4 +16,9 @@
     android:key="exodus_settings"
     android:title="@string/exodus_settings_title">
 
+    <Preference
+            android:key="statusbar_settings"
+            android:title="@string/statusbar_settings_title"
+            android:fragment="com.exodus.settings.fragments.StatusBarSettings" />
+
 </PreferenceScreen>
