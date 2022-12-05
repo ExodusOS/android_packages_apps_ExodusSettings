@@ -29,4 +29,8 @@
     <string name="network_traffic_autohide_title">Hide network traffic is inactive</string>
     <string name="network_traffic_autohide_summary">Hide when network traffic is below 1KB/s</string>
 
+    <!-- Status bar padding -->
+    <string name="statusbar_left_padding">Left padding</string>
+    <string name="statusbar_right_padding">Right padding</string>
+
 </resources>
