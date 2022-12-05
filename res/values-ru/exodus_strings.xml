@@ -33,4 +33,8 @@
     <string name="statusbar_left_padding">Левый отступ строки состояния</string>
     <string name="statusbar_right_padding">Правый отступ строки состояния</string>
 
+    <!-- Clock chip -->
+    <string name="status_bar_clock_bg">Фон под часами</string>
+    <string name="status_bar_show_clock_bg">Показывать фон под часами акцента</string>
+
 </resources>
