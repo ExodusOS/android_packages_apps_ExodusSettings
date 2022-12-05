@@ -22,6 +22,11 @@
             android:fragment="com.exodus.settings.fragments.StatusBarSettings" />
 
      <Preference
+            android:key="lockscreen_settings"
+            android:title="@string/lockscreen_settings_title"
+            android:fragment="com.exodus.settings.fragments.LockscreenSettings" />
+
+     <Preference
             android:key="clock_settings"
             android:title="@string/clock_settings_title"
             android:fragment="com.exodus.settings.fragments.ClockSettings" />
