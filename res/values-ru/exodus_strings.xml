@@ -41,4 +41,8 @@
     <string name="enable_fingerprint_ripple_effect_title">Эффект пульсации</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект пульсации при разблокировке отпечатком пальца</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматически разблокируется при вводе правильного PIN-кода/пароля</string>
+
 </resources>
