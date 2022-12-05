@@ -54,6 +54,12 @@
     <string name="qs_columns_portrait_title">Columns (portrait)</string>
     <string name="qs_columns_landscape_title">Columns (landscape)</string>
 
+    <!-- Signal and WiFi icon style -->
+   <string name="theme_customization_signal_icon_title">Signal icon style</string>
+   <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+   <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+   <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_summary">Set system font style</string>
     <string name="theme_customization_icon_pack_title">Icon pack</string>
