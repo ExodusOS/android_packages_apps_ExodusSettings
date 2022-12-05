@@ -60,4 +60,8 @@
     <string name="theme_customization_icon_pack_summary">Установить пользовательский пакет стиля иконок</string>
     <string name="theme_customization_icon_shape_summary">Установить системный стиль формы иконок</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности в приложениях</string>
+    <string name="ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются черными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу</string>
+    
 </resources>
