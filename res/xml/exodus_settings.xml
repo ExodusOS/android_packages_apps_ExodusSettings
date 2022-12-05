@@ -36,4 +36,9 @@
             android:title="@string/clock_settings_title"
             android:fragment="com.exodus.settings.fragments.ClockSettings" />
 
+     <Preference
+            android:key="themed_settings"
+            android:title="@string/themed_settings_title"
+            android:fragment="com.exodus.settings.fragments.ThemedSettings" />
+
 </PreferenceScreen>
