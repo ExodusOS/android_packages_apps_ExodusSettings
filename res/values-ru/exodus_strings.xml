@@ -54,4 +54,10 @@
     <string name="qs_columns_portrait_title">Колонки (Вертикальная ориентация)</string>
     <string name="qs_columns_landscape_title">Колонки (Горизонтальная ориентация)</string>
 
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_summary">Установить стиль шрифта системы</string>
+    <string name="theme_customization_icon_pack_title">Набор иконок</string>
+    <string name="theme_customization_icon_pack_summary">Установить пользовательский пакет стиля иконок</string>
+    <string name="theme_customization_icon_shape_summary">Установить системный стиль формы иконок</string>
+
 </resources>
