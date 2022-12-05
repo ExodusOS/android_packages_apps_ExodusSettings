@@ -41,4 +41,9 @@
             android:title="@string/themed_settings_title"
             android:fragment="com.exodus.settings.fragments.ThemedSettings" />
 
+     <Preference
+            android:key="other_settings"
+            android:title="@string/other_settings_title"
+            android:fragment="com.exodus.settings.fragments.OtherSettings" />
+
 </PreferenceScreen>
