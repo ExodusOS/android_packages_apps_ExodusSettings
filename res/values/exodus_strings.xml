@@ -15,5 +15,6 @@
     <!-- Settings category -->
     <string name="exodus_settings_title">ExodusOS Settings</string>
     <string name="statusbar_settings_title">StatusBar</string>
+    <string name="clock_settings_title">Clock</string>
 
 </resources>
