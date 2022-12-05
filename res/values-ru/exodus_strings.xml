@@ -19,5 +19,6 @@
     <string name="lockscreen_settings_title">Экран блокировки</string>
     <string name="quick_settings_title">Быстрые настройки</string>
     <string name="themed_settings_title">Оформление</string>
+    <string name="other_settings_title">Прочее</string>
 
 </resources>
