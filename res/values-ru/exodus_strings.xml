@@ -73,5 +73,9 @@
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Неограниченное хранилище фотографий</string>
     <string name="use_photos_spoof_summary">Подделайте свое устройство как Pixel XL только для приложения Google Photos, чтобы обеспечить неограниченное хранилище для резервного копирования</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Разблокировать высокий FPS в играх</string>
+    <string name="use_games_spoof_summary">Подделайте свое устройство под другую модель для определенных игр, чтобы разблокировать более высокий FPS</string>
     
 </resources>
