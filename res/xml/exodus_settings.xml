@@ -46,4 +46,10 @@
             android:title="@string/other_settings_title"
             android:fragment="com.exodus.settings.fragments.OtherSettings" />
 
+     <com.android.settingslib.widget.FooterPreference
+           android:key="exodus_settings_footer"
+           android:title="@string/exodus_settings_footer"
+           android:selectable="false"
+           settings:searchable="false"/>
+
 </PreferenceScreen>
