@@ -20,6 +20,7 @@
     <string name="quick_settings_title">Быстрые настройки</string>
     <string name="themed_settings_title">Оформление</string>
     <string name="other_settings_title">Прочее</string>
+    <string name="flashlight_settings_title">Фонарик</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Cетевой трафик</string>

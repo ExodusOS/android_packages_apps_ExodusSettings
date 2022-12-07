@@ -20,6 +20,7 @@
     <string name="quick_settings_title">Quick Settings</string>
     <string name="themed_settings_title">Themed</string>
     <string name="other_settings_title">Other</string>
+    <string name="flashlight_settings_title">Flashlight</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
