@@ -100,5 +100,12 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
     <string name="use_old_mobiletype_summary">Показывать значок мобильной сети над индикатором сигнала</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Мигающий фонарик при входящем звонке</string>
+    <string name="flashlight_on_call_disabled">Отключено</string>
+    <string name="flashlight_on_call_ringer">При звонке</string>
+    <string name="flashlight_on_call_silent">Когда полная тишина (без звонков или вибрации)</string>
+    <string name="flashlight_on_call_always">Всегда</string>
     
 </resources>
