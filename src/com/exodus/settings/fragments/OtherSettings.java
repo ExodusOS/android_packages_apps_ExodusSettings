@@ -87,7 +87,7 @@ public class OtherSettings extends SettingsPreferenceFragment implements
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         SystemProperties.set(SYS_GAMES_SPOOF, "false");
-        SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
+        SystemProperties.set(SYS_PHOTOS_SPOOF, "false");
     }
 
     @Override
