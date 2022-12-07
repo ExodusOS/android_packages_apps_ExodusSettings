@@ -100,5 +100,9 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
     <string name="use_old_mobiletype_summary">Показывать значок мобильной сети над индикатором сигнала</string>
+
+    <!-- Clock Font size -->
+    <string name="<!-- Clock Font size -->
+    <string name="clock_font_size_title">Размер шрифта часов</string>
     
 </resources>
