@@ -80,5 +80,9 @@
 
     <!-- ExodusOS footer -->
     <string name="exodus_settings_footer"><![CDATA[</> with ❤️ by Sensei Developer, specifically for Exodus OS]]></string>
+
+    <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
     
 </resources>
