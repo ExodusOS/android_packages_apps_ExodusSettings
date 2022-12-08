@@ -79,9 +79,6 @@
     <string name="use_games_spoof_title">Unlock higher FPS in games</string>
     <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
 
-    <!-- ExodusOS footer -->
-    <string name="exodus_settings_footer"><![CDATA[</> with ❤️ by Sensei Developer, specifically for Exodus OS]]></string>
-
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
