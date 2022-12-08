@@ -18,31 +18,37 @@
 
     <Preference
             android:key="statusbar_settings"
+            android:icon="@drawable/ic_statusbar"
             android:title="@string/statusbar_settings_title"
             android:fragment="com.exodus.settings.fragments.StatusBarSettings" />
 
      <Preference
             android:key="quick_settings"
+            android:icon="@drawable/ic_quick"
             android:title="@string/quick_settings_title"
             android:fragment="com.exodus.settings.fragments.QuickSettings" />
 
      <Preference
             android:key="lockscreen_settings"
+            android:icon="@drawable/ic_lockscreen"
             android:title="@string/lockscreen_settings_title"
             android:fragment="com.exodus.settings.fragments.LockscreenSettings" />
 
      <Preference
             android:key="clock_settings"
+            android:icon="@drawable/ic_clock"
             android:title="@string/clock_settings_title"
             android:fragment="com.exodus.settings.fragments.ClockSettings" />
 
      <Preference
             android:key="themed_settings"
+            android:icon="@drawable/ic_themed"
             android:title="@string/themed_settings_title"
             android:fragment="com.exodus.settings.fragments.ThemedSettings" />
 
      <Preference
             android:key="other_settings"
+            android:icon="@drawable/ic_other"
             android:title="@string/other_settings_title"
             android:fragment="com.exodus.settings.fragments.OtherSettings" />
 
