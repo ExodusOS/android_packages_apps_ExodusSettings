@@ -134,5 +134,9 @@
     <string name="volume_steps_system_title">Уровень громкости: Система</string>
     <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сброс</string>
+
+    <!-- UiBench -->
+    <string name="jitter_test_title">Джиттер</string>
+    <string name="jitter_test_summary">Рассчитать рендеринг jitter</string>
     
 </resources>
