@@ -40,6 +40,12 @@
         android:defaultValue="false" />
 
     <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.exodus.settings.fragments.VolumeStepsFragment" />
+
+    <Preference
             android:key="flashlight_settings"
             android:title="@string/flashlight_settings_title"
             android:fragment="com.exodus.settings.fragments.Flashlight" />
