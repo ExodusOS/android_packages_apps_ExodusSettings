@@ -104,6 +104,7 @@
 
     <!-- Units -->
     <string name="unit_hz">Hz</string>
+    <string name="unit_percent">%</string>
 
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Blink Flashlight for incoming call</string>
@@ -116,5 +117,9 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
     <string name="flashlight_on_call_rate_title">Rate</string>
     <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
     
 </resources>
