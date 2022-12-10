@@ -47,6 +47,7 @@
 
     <Preference
             android:key="flashlight_settings"
+            android:summary="@string/flashlight_on_call_summary"
             android:title="@string/flashlight_settings_title"
             android:fragment="com.exodus.settings.fragments.Flashlight" />
 
