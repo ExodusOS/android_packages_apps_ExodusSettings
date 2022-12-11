@@ -118,7 +118,7 @@
 
    <!-- QS Transparency -->
     <string name="qs_transparency_title">Прозрачность фона</string>
-    <string name="qs_transparency_summary">Установка уровня прозрачности фона быстрых настроек</string>
+    <string name="qs_transparency_summary">Установка уровня прозрачности фона быстрых настроек. Требуется перезапуск SystemUI</string>
 
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Трафик приложений</string>

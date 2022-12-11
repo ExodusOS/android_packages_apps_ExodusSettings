@@ -61,10 +61,9 @@
             android:key="qs_transparency"
             android:title="@string/qs_transparency_title"
             android:summary="@string/qs_transparency_summary"
-            android:defaultValue="100"
+            android:defaultValue="10"
             settings:interval="1"
-            settings:units="@string/unit_percent"
-            android:max="100"
+            android:max="10"         
             android:min="1" />
 
         <com.exodus.support.preferences.SystemSettingSwitchPreference
