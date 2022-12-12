@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Copyright (C) 2022 ExodusOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Settings category -->
+    <string name="exodus_settings_title">Налаштування ExoodusOS</string>
+    <string name="statusbar_settings_title">Рядок стану</string>
+    <string name="clock_settings_title">Годинник</string>
+    <string name="lockscreen_settings_title">Екран блокування</string>
+    <string name="quick_settings_title">Швидкі налаштування</string>
+    <string name="themed_settings_title">Оформлення</string>
+    <string name="other_settings_title">Інше</string>
+    <string name="flashlight_settings_title">Ліхтарик</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Мережевий трафік</string>
+    <string name="network_traffic_summary">Увімкнути/Вимкнути</string>
+    <string name="network_traffic_state_title">Увімкнути мережний трафік"</string>
+    <string name="network_options_title">Параметри</string>
+    <string name="network_traffic_autohide_title">Приховувати мережевий коли неактивно</string>
+    <string name="network_traffic_autohide_summary">Приховувати, коли мережевий трафік нижче 1 KB/s</string>
+
+    <!-- Status bar padding -->
+    <string name="statusbar_left_padding">Лівий відступ рядка стану</string>
+    <string name="statusbar_right_padding">Правий відступ рядка стану</string>
+
+    <!-- Clock chip -->
+    <string name="status_bar_clock_bg">Фон під годинником</string>
+    <string name="status_bar_show_clock_bg">Показувати фон під годинником акценту</string>
+
+    <!-- Ripple Effect on lockscreen -->
+    <string name="enable_fingerprint_ripple_effect_title">Ефект пульсації</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показувати ефект пульсації при розблокуванні відбитком пальця</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматично розблокується при введенні правильного PIN-коду/паролю</string>
+
+    <!-- QS tiles layout -->
+    <string name="qs_layout_category_title">Розмітка плиток</string>
+    <string name="qs_tile_label_hide_title">Приховати підпис</string>
+    <string name="qs_tile_label_hide_summary">Відображати лише іконку плитки</string>
+    <string name="qs_tile_layout_title">Вертикальна розмітка</string>
+    <string name="qs_tile_layout_summary">Відображати підпис під іконкою, а не поруч</string>
+    <string name="qs_columns_portrait_title">Колонки (Вертикальна орієнтація)</string>
+    <string name="qs_columns_landscape_title">Колонки (Горизонтальна орієнтація)</string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_summary">Встановити стиль шрифту системи</string>
+    <string name="theme_customization_icon_pack_title">Набір іконок</string>
+    <string name="theme_customization_icon_pack_summary">Встановити власний пакет стилю іконок</string>
+    <string name="theme_customization_icon_shape_summary">Встановити системний стиль форми іконок</string>
+
+    <!-- Signal and WiFi icon style -->
+    <string name="theme_customization_signal_icon_title">Стиль піктограми сигналу</string>
+    <string name="theme_customization_signal_icon_summary">Вибрати стиль піктограми сигналу</string>
+    <string name="theme_customization_wifi_icon_title">Стиль значка Wi-FI</string>
+    <string name="theme_customization_wifi_icon_summary">Вибрати стиль значка Wi-Fi</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ігнорувати прапори безпеки в програмах</string>
+    <string name="ignore_window_secure_summary">Прибирає обмеження скріншотів та записів для всіх програм, коли вони замінюються чорними областями у записах. Це може бути зручним у деяких випадках, але може призвести до витоку конфіденційної інформації. Після зміни цього перемикача може знадобитися перезапустити програми, щоб зміни набули чинності</string>
+
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Необмежене сховище фотографій</string>
+    <string name="use_photos_spoof_summary">Підробіть свій пристрій як Pixel XL тільки для програми Google Photos, щоб забезпечити необмежене сховище для резервного копіювання</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Розблокувати високий FPS в іграх</string>
+    <string name="use_games_spoof_summary">Підробіть свій пристрій під іншу модель для певних ігор, щоб розблокувати вищий FPS</string>
+
+    <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Жест трьома пальцями</string>
+    <string name="three_finger_gesture_summary">Проведіть трьома пальцями по екрану, щоб зробити скріншот</string>
+
+    <!-- General category -->
+    <string name="statusbar_icons">Іконки</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Показувати 4G значок замість LTE</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Значок відключеної передачі даних</string>
+    <string name="data_disabled_icon_summary">Показувати хрестик біля значка мережі, коли передача даних вимкнена</string>
+    
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Індикатор роумінгу</string>
+    <string name="roaming_indicator_icon_summary">Відображати індикатор роумінгу поруч із піктограмою мережі під час знаходження в роумінгу</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Маленька піктограма мобільної мережі</string>
+    <string name="use_old_mobiletype_summary">Показувати піктограму мобільної мережі над індикатором сигналу</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Мигаючий ліхтарик при вхідному дзвінку</string>
+    <string name="flashlight_on_call_summary">Встановити миготливий ліхтарик при вхідному дзвінку</string>
+    <string name="flashlight_on_call_disabled">Вимкнено</string>
+    <string name="flashlight_on_call_ringer">При дзвінку</string>
+    <string name="flashlight_on_call_no_ringer">Коли дзвінок беззвучний</string>
+    <string name="flashlight_on_call_silent">Коли повна тиша (без дзвінків або вібрації)</string>
+    <string name="flashlight_on_call_always">Завжди</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Ігнорувати \"Не турбувати\"</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Чи миготіти в режимі \"Не турбувати\"</string>
+    <string name="flashlight_on_call_rate_title">Темп миготіння</string>
+    <string name="flashlight_on_call_rate_summary">Частота миготіння ліхтарика під час виклику</string>
+
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Прозорість тла</string>
+    <string name="qs_transparency_summary">Встановлення рівня прозорості фону швидкого налаштування. Потрібно перезапустити SystemUI</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Трафік програм</string>
+    <string name="qs_footer_datausage_summary">Показувати статистику використання трафіку в нижній частині швидких налаштувань</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Рівні гучності</string>
+    <string name="volume_steps_summary">Налаштувати рівні гучності</string>
+    <string name="volume_steps_alarm_title">Рівень гучності: Будильник</string>
+    <string name="volume_steps_dtmf_title">Рівень гучності: Тональний Набір</string>
+    <string name="volume_steps_music_title">Рівень гучності: Медіа</string>
+    <string name="volume_steps_notification_title">Рівень гучності: Повідомлення</string>
+    <string name="volume_steps_ring_title">Рівень гучності: Дзвінок</string>
+    <string name="volume_steps_system_title">Рівень гучності: Система</string>
+    <string name="volume_steps_voice_call_title">Рівень гучності: Голосовий виклик</string>
+    <string name="volume_steps_reset">Скидання</string>
+
+    <!-- UiBench -->
+    <string name="jitter_test_title">Джиттер</string>
+    <string name="jitter_test_summary">Розрахувати рендеринг jitter</string>
+    
+</resources>
