@@ -52,15 +52,6 @@
             android:fragment="com.exodus.settings.fragments.Flashlight" />
 
     <Preference
-        android:key="parallel_space"
-        android:title="@string/laboratory_parallel_space_title"
-        android:summary="@string/laboratory_parallel_space_summary">
-        <intent
-            android:targetPackage="ink.kscope.parallelspace"
-            android:targetClass="ink.kscope.parallelspace.MainActivity" />
-    </Preference>
-
-    <Preference
         android:key="smart_charging"
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary"
