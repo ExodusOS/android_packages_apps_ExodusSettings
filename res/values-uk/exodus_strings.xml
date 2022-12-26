@@ -138,5 +138,15 @@
     <!-- UiBench -->
     <string name="jitter_test_title">Джиттер</string>
     <string name="jitter_test_summary">Розрахувати рендеринг jitter</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Розумне заряджання</string>
+    <string name="smart_charging_summary">Встановіть максимальний рівень зарядки</string>
+    <string name="smart_charging_switch_title">Використати Розумну зарядку</string>
+    <string name="smart_charging_level_title">Рівень початку заряджання</string>
+    <string name="smart_charging_resume_level_title">Рівень початку заряджання</string>
+    <string name="smart_charging_reset_stats_title">Скинути статистику акумулятора</string>
+    <string name="smart_charging_reset_stats_summary">Скинути статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
+    <string name="smart_charging_footer">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батарейки. Коли ввімкнено, батарея перестає заряджатись при досягненні рівня зупинки і відновлює заряджання на рівні початку. Рівень зупинки повинен завжди бути більшим, ніж рівень повзунка початку роботи</string>
     
 </resources>

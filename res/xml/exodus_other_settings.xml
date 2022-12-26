@@ -51,6 +51,12 @@
             android:title="@string/flashlight_settings_title"
             android:fragment="com.exodus.settings.fragments.Flashlight" />
 
+    <Preference
+        android:key="smart_charging"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary"
+        android:fragment="com.exodus.settings.fragments.SmartCharging"/>
+
     <PreferenceCategory
         android:key="uibench"
         android:title="@string/category_uibench">

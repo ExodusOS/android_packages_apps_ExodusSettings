@@ -35,6 +35,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.exodus.settings.fragments.SmartCharging;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -44,11 +46,13 @@ public class OtherSettings extends SettingsPreferenceFragment implements
 
     public static final String TAG = "OtherSettings";
 
+    private static final String SMART_CHARGING = "smart_charging";
     private static final String KEY_GAMES_SPOOF = "use_games_spoof";
     private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
 
+    private Preference mSmartCharging;
     private SwitchPreference mGamesSpoof;
     private SwitchPreference mPhotosSpoof;
 
@@ -60,6 +64,12 @@ public class OtherSettings extends SettingsPreferenceFragment implements
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
+
+        mSmartCharging = (Preference) prefScreen.findPreference(SMART_CHARGING);
+        boolean mSmartChargingSupported = res.getBoolean(
+                com.android.internal.R.bool.config_smartChargingAvailable);
+        if (!mSmartChargingSupported)
+            prefScreen.removePreference(mSmartCharging);
 
         mGamesSpoof = (SwitchPreference) prefScreen.findPreference(KEY_GAMES_SPOOF);
         mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, false));
@@ -88,6 +98,7 @@ public class OtherSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = mContext.getContentResolver();
         SystemProperties.set(SYS_GAMES_SPOOF, "false");
         SystemProperties.set(SYS_PHOTOS_SPOOF, "false");
+        SmartCharging.reset(mContext);
     }
 
     @Override
@@ -104,6 +115,12 @@ public class OtherSettings extends SettingsPreferenceFragment implements
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+                    final Resources res = context.getResources();
+
+                    boolean mSmartChargingSupported = res.getBoolean(
+                            com.android.internal.R.bool.config_smartChargingAvailable);
+                    if (!mSmartChargingSupported)
+                        keys.add(SMART_CHARGING);
 
                     return keys;
                 }
