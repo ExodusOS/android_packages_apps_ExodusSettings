@@ -148,5 +148,9 @@
     <string name="smart_charging_reset_stats_title">Сбросить статистику батареи</string>
     <string name="smart_charging_reset_stats_summary">Сбрасывать статистику батареи после достижения заданного уровня заряда</string>
     <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень заряда для увеличения срока жизни аккумулятора. При включенной функции аккумулятор прекратит зарядку по достижении уровня максимального заряда и возобновит зарядку по достижении уровня минимального заряда. Уровень начала зарядки всегда должен быть выше уровня остановки зарядки</string>
+
+    <!-- Netflix Spoof -->
+    <string name="netflix_spoof_title">Обманка Netflix</string>
+    <string name="netflix_spoof_summary">Подделываем своё устройство под другую модель для Netflix</string>
     
 </resources>

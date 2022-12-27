@@ -33,6 +33,12 @@
         android:title="@string/use_games_spoof_title"
         android:summary="@string/use_games_spoof_summary" />
 
+    <SwitchPreference
+        android:key="use_netflix_spoof"
+        android:title="@string/netflix_spoof_title"
+        android:summary="@string/netflix_spoof_summary"
+        android:defaultValue="false" />
+
     <com.exodus.support.preferences.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
         android:title="@string/three_finger_gesture"
