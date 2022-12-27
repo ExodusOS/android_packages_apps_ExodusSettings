@@ -63,6 +63,6 @@ public class SmartCharging extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CRDROID_SETTINGS;
+        return MetricsProto.MetricsEvent.EXODUS_CUSTOMISATION;
     }
 }
